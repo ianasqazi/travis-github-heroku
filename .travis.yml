@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+    - stable
+deploy:
+    provider: heroku
+    api_key:
+        secure:
+            put: FeuoeEoDvC80V5OxM28hzByJxK7Ak8x82Dno2r19kLPBRN5MboIsRt4kzlFnsV34+RPrXNDUAgr1P5QU20TOAk+1yw93zjUbQ6sgK02L+wvA+vAT4zKt1+UbYoeHGh1xfJVkzJrprhMt3UQpLMGA+CK1TE1wd404duB0VaKzAGQOgiH7P4ObF2g+0hfyPt0ZHWO3FKWIzMU9l+ZYLSP9AeIDNPRImuDowvRDWxoR2LvspYU/D4o3flq2SufateYTo94/tmOU6HaeqaEwey6SHFam3Qir6BURdGDVxczXE1vgJhS/HQxFJDRXr2KaQj77em3yv2eEgzGmUxFsFzydmXpr5ZK9Ipc648e5voSrQBi9o16RUeop4Uj9j3nB1TnAPeEMSz6NJPNgdnV2r0Cai+xPkXbIb5yISdnxuyNyzBgSY5SvMaS3BddYXjwi3VkYq62YHAAAuolSsrrA4Vvmaebl215QtPMOGokfPEsTzf1FX6AZC+MAaeCJsax7tZa+RhcFIL+WritMIK5pp+WpEfllDckLpCjoqTuDWOhWSNm1evCuOnYLsG+P+KHe4w8NB5ZEdvtk7wqdqBRyxwVSi3rZ3llhj6PwwiOxns6w/B2gVXl/dKD7pMhKlqJKMjcNQlhA4HpOgA7t8v8hkqj4s4yW/rKOJ0fhIqqDGD6c/+E=
+    app:
+        name: mighty-badlands-57498
+    on:
+        repo: ianasqazi/travis-github-heroku
