@@ -1,0 +1,43 @@
+{
+  "name": "travis-github-heroku",
+  "version": "1.0.0",
+  "description": "2020 Edition of testing travis with github and heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint server.js && mocha ./tests/index-spec.js --exit",
+    "start": "node server.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eapostol/travis-github-heroku.git"
+  },
+  "keywords": [
+    "github",
+    "travis",
+    "heroku",
+    "deployment",
+    "CI/CD",
+    "unit",
+    "testing"
+  ],
+  "author": "Edward J. Apostol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eapostol/travis-github-heroku/issues"
+  },
+  "homepage": "https://github.com/eapostol/travis-github-heroku#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.0.0"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
