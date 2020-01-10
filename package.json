@@ -4,7 +4,6 @@
   "description": "2020 Edition of testing travis with github and heroku",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./tests/index-spec.js --exit",
     "start": "node index.js",
     "lint": "eslint"
   },
