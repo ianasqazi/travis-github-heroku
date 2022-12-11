@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "chai": "^4.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mocha": "^7.0.0"
   },
   "engines": {
